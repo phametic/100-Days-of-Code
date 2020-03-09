@@ -1,0 +1,22 @@
+main {
+  background-color: lightcoral;
+  width: 50%;
+  margin: 25% auto;
+  padding: 50px 25px 50px 25px;
+  border: 2px solid white;
+  border-radius: 25px;
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin: 3% auto;
+  padding: 15px;
+  background-color: lightseagreen;
+  color: white;
+}
+
+#counter {
+  color: white;
+  font-size: 40px;
+}

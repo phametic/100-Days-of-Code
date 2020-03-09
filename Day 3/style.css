@@ -1,0 +1,29 @@
+body {
+  background-color: #D7FDFF;
+}
+h1 {
+  color: red;
+  text-align: center;
+}
+button {
+  display: block;
+  margin: 0 auto;
+}
+
+#QuoteBox {
+  margin: 0 auto;
+  width: 50%;
+  background-color: #FFE6D6;
+}
+
+.quoteStyle {
+  margin-bottom: 0px;
+}
+
+.authorStyle {
+  text-align: right;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  margin-top: 0px;
+}
+
