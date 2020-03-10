@@ -1,0 +1,56 @@
+body {
+  background-color: lightblue;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  border: 12px solid #555;
+  border-radius: 5px;
+}
+
+.leftBtn {
+  position: absolute;
+  top: 50%;
+  left: -2%;
+  transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.rightBtn {
+  position: absolute;
+  top: 50%;
+  right: -11%;
+  transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+} 
+
+.leftBtn:hover, .rightBtn:hover {
+  background-color: black;
+}
